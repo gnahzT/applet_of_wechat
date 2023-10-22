@@ -1,0 +1,19 @@
+<!--pages/swiper/swiper.wxml-->
+
+<!-- indicator-dots：显示指示点  -->
+<!-- indicator-color：未选中指示点颜色 -->
+<!-- indicator-active-color：已选中指示点颜色 -->
+<!-- autoplay：自动切换 -->
+<!-- interval：自动切换时间间隔 -->
+<!-- circular：衔接滑动 -->
+<swiper class="swiper-container" indicator-dots indicator-color="white" indicator-active-color="grey" autoplay interval="2000" circular>
+  <swiper-item>
+    <view class="item">A</view>
+  </swiper-item>
+  <swiper-item>
+    <view class="item">B</view>
+  </swiper-item>
+  <swiper-item>
+    <view class="item">C</view>
+  </swiper-item>
+</swiper>
