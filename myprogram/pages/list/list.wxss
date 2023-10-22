@@ -1,0 +1,46 @@
+/* pages/list/list.wxss */
+.container1 view {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.container1 view:nth-child(1){
+  background-color: lightgreen;
+}
+.container1 view:nth-child(2){
+  background-color: lightblue;
+}
+.container1 view:nth-child(3){
+  background-color: lightpink;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container2 view {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.container2 view:nth-child(1){
+  background-color: lightgreen;
+}
+.container2 view:nth-child(2){
+  background-color: lightblue;
+}
+.container2 view:nth-child(3){
+  background-color: lightpink;
+}
+
+.container2 {
+  margin-top: 10px;
+  border: 1px solid red;
+  width: 100px;
+  height: 120px;
+}
