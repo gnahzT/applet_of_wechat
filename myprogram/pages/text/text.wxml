@@ -5,4 +5,5 @@
   <text selectable>18373753716</text>
 </view>
 
+<!-- rich-text 支持渲染html字符串 -->
 <rich-text nodes="<h1 style='color: red;'>标题</h1>"/>

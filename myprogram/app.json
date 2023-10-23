@@ -1,5 +1,7 @@
 {
   "pages":[
+    "pages/_image/_image",
+    "pages/button/button",
     "pages/text/text",
     "pages/swiper/swiper",
     "pages/list/list",

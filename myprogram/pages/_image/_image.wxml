@@ -1,0 +1,12 @@
+<!--pages/_image/_image.wxml-->
+
+<!-- 
+  mode属性值：
+  aspectFit 保持纵横比缩放图片，使长边完全显示
+  aspectFill 保持纵横比缩放图片，使短边完全显示，长边会被截取
+  widthFix 宽度不变，高度自动变化
+  heightFix 高度不变，宽度自动变化
+ -->
+
+<image src="" mode=""/>
+<image src="/images/oneself.jpg" mode="widthFix"/>
