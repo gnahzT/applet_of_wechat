@@ -1,0 +1,8 @@
+<!--pages/text/text.wxml-->
+<!-- test组件支持长按选中，但必须要加selectable属性 -->
+<view>
+  实现长按选中的效果：
+  <text selectable>18373753716</text>
+</view>
+
+<rich-text nodes="<h1 style='color: red;'>标题</h1>"/>
