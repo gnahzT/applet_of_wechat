@@ -1,0 +1,8 @@
+<!--pages/data_bingding/data_bingding.wxml-->
+<view>{{ info }}</view>
+<!-- 动态绑定属性 -->
+<image src="{{ imgSrc }}" mode="aspectFit"></image>
+<!-- 三元运算 -->
+<view>{{ randomNum >= 5 ? "随机数大于等于五" : "随机数小于五" }}</view>
+<!-- 算数运算 -->
+<view>{{ randomNum1 * 100 }}</view>
