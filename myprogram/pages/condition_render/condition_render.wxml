@@ -1,0 +1,13 @@
+<!--pages/condition_render/condition_render.wxml-->
+<view wx:if="{{type === 1}}"> 男 </view>
+<view wx:elif="{{type === 2}}"> 女 </view>
+<view wx:else> 保密 </view>
+
+<!-- block 只起到包裹的作用,不会在页面中做渲染 -->
+<block wx:if="{{true}}">
+  <view> view1 </view>
+  <view> view2 </view>
+</block>
+
+<!-- hidden属性也可以控制元素是否显示 -->
+<view hidden="{{ condition }}">条件为true隐藏,条件为false显示</view>
