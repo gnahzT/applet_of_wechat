@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/event_bingding/event_bingding",
     "pages/data_bingding/data_bingding",
     "pages/index/index",
     "pages/_image/_image",
