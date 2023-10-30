@@ -1,1 +1,4 @@
 /* pages/list_render/list_render.wxss */
+
+/* 使用 @import 引用外部样式 */
+@import "/common/common.wxss";
