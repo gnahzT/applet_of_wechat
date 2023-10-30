@@ -1,0 +1,10 @@
+<!--pages/list_render/list_render.wxml-->
+<view wx:for="{{ array }}">
+  索引是：{{ index }} 当前项是：{{ item }}
+</view>
+
+<text>~~~~~~~~~~~~~~~~~~~~</text>
+
+<view wx:for="{{ userList }}" wx:key="id">
+  {{item.name}}
+</view>

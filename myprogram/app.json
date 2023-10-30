@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/list_render/list_render",
     "pages/condition_render/condition_render",
     "pages/event_bingding/event_bingding",
     "pages/data_bingding/data_bingding",
