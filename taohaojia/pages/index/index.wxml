@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<navigation-bar title="7230263661" back="{{false}}" color="white" background="black"></navigation-bar>
+
+<swiper class="swiper-container" indicator-dots indicator-color="black" indicator-active-color="grey" autoplay interval="3000" circular>
+  <swiper-item>
+    <view class="img-item">7230263661</view>
+  </swiper-item>
+  <swiper-item>
+    <image class="img-item" src="/images/carousel1.png" mode=""/>
+  </swiper-item>
+  <swiper-item>
+    <image class="img-item" src="/images/carousel2.png" mode=""/>
+  </swiper-item>
+</swiper>
