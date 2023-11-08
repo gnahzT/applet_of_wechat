@@ -1,0 +1,2 @@
+<!--pages/get_request/get_request.wxml-->
+<button bind:tap="getInfo">发起get请求</button>

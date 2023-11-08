@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/get_request/get_request",
     "pages/list_render/list_render",
     "pages/condition_render/condition_render",
     "pages/event_bingding/event_bingding",
@@ -13,10 +14,12 @@
     "pages/logs/logs"
   ],
   "window":{
-    "backgroundTextStyle":"light",
+    "backgroundTextStyle":"dark",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"black", 
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#efefef" 
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
