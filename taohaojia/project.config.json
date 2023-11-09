@@ -18,7 +18,8 @@
       "ignore": [],
       "disablePlugins": [],
       "outputPath": ""
-    }
+    },
+    "checkSiteMap": false
   },
   "condition": {},
   "editorSetting": {

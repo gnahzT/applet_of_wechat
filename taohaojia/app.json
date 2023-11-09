@@ -6,7 +6,8 @@
   ],
   "window": {
     "navigationBarTextStyle": "white",
-    "navigationStyle":"custom"
+    "navigationStyle":"custom",
+    "navigationBarTitleText": "7230263661"
   },
   "tabBar": {
     "selectedColor": "#000",

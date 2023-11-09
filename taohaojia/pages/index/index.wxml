@@ -12,3 +12,47 @@
     <image class="img-item" src="/images/carousel2.png" mode=""/>
   </swiper-item>
 </swiper>
+
+<!-- 类别 -->
+<view class="category">
+  
+</view>
+<!-- 九宫格 -->
+<view class="grid-list">
+  <view class="grid-item">
+    <image src="/images/carousel1.png" mode=""/>
+    <text>asdf</text>
+  </view>
+  <view class="grid-item">
+    <image src="/images/carousel1.png" mode=""/>
+    <text>asdf</text>
+  </view>
+  <view class="grid-item">
+    <image src="/images/carousel1.png" mode=""/>
+    <text>asdf</text>
+  </view>
+  <view class="grid-item">
+    <image src="/images/carousel1.png" mode=""/>
+    <text>asdf</text>
+  </view>
+  <view class="grid-item">
+    <image src="/images/carousel1.png" mode=""/>
+    <text>asdf</text>
+  </view>
+  <view class="grid-item">
+    <image src="/images/carousel1.png" mode=""/>
+    <text>asdf</text>
+  </view>
+  <view class="grid-item">
+    <image src="/images/carousel1.png" mode=""/>
+    <text>asdf</text>
+  </view>
+  <view class="grid-item">
+    <image src="/images/carousel1.png" mode=""/>
+    <text>asdf</text>
+  </view>
+  <view class="grid-item">
+    <image src="/images/carousel1.png" mode=""/>
+    <text>asdf</text>
+  </view>
+</view>
