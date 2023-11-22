@@ -1,0 +1,35 @@
+/* components/product_item/product_item.wxss */
+
+.container {
+  margin: 0 auto;
+  margin-top: 10rpx;
+  height: 225rpx;
+  width: 95%;
+  display: flex;
+  align-items:center;
+  overflow: hidden;
+  border: 1rpx #d0d0d0 solid;
+  border-radius: 10rpx;
+}
+
+.left {
+  margin-left: 5rpx;
+  display: flex;
+  align-items:center;
+}
+
+image {
+  height: 200rpx;
+  width: 200rpx;
+}
+
+.right {
+  margin-left: 30rpx;
+}
+
+.container-name {
+    margin-bottom: 110rpx;
+}
+.price {
+  color: red;
+}

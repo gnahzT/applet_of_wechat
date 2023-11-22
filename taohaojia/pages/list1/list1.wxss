@@ -1,0 +1,9 @@
+/* pages/list1/list1.wxss */
+
+input {
+  border: 1px solid #d0d0d0;
+  height: 60rpx;  
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 30px; 
+}

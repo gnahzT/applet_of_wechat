@@ -1,2 +1,8 @@
 // index.js
-Page({})
+Page({
+  goList(){
+    wx.navigateTo({
+      url: '/pages/list1/list1',
+    })
+  }
+})

@@ -1,0 +1,14 @@
+<!--components/product_item/product_item.wxml-->
+<view class="container">
+  <view class="left">
+    <image src="/images/carousel1.png" mode=""/>
+  </view>
+  <view class="right">
+      <view class="container-name">
+        <text class="name">{{trade_name}}</text>
+      </view>
+      <view class="container-price">
+        <text class="price">￥{{trade_price}}</text>
+      </view>
+  </view>
+</view>

@@ -1,5 +1,4 @@
 <!--index.wxml-->
-<navigation-bar title="7230263661" back="{{false}}" color="white" background="black"></navigation-bar>
 
 <swiper class="swiper-container" indicator-dots indicator-color="black" indicator-active-color="grey" autoplay interval="3000" circular>
   <swiper-item>
@@ -13,46 +12,54 @@
   </swiper-item>
 </swiper>
 
+<view class="table">
 <!-- 类别 -->
-<view class="category">
-  
-</view>
-<!-- 九宫格 -->
-<view class="grid-list">
-  <view class="grid-item">
-    <image src="/images/carousel1.png" mode=""/>
-    <text>asdf</text>
+  <scroll-view class="category" scroll-y>
+    <view class="category-item">1</view>
+    <view class="category-item">2</view>
+    <view class="category-item">3</view>
+    <view class="category-item">4</view>
+    <view class="category-item">5</view>
+    <view class="category-item">6</view>
+    <view class="category-item">7</view>
+  </scroll-view>
+  <!-- 九宫格 -->
+  <view class="grid-list">
+    <view class="grid-item" bind:tap="goList">
+      <image src="/images/carousel1.png" mode=""/>
+      <text>asdf</text>
+    </view>
+    <view class="grid-item">
+      <image src="/images/carousel1.png" mode=""/>
+      <text>asdf</text>
+    </view>
+    <view class="grid-item">
+      <image src="/images/carousel1.png" mode=""/>
+      <text>asdf</text>
+    </view>
+    <view class="grid-item">
+      <image src="/images/carousel1.png" mode=""/>
+      <text>asdf</text>
+    </view>
+    <view class="grid-item">
+      <image src="/images/carousel1.png" mode=""/>
+      <text>asdf</text>
+    </view>
+    <view class="grid-item">
+      <image src="/images/carousel1.png" mode=""/>
+      <text>asdf</text>
+    </view>
+    <view class="grid-item">
+      <image src="/images/carousel1.png" mode=""/>
+      <text>asdf</text>
+    </view>
+    <view class="grid-item">
+      <image src="/images/carousel1.png" mode=""/>
+      <text>asdf</text>
+    </view>
+    <view class="grid-item">
+      <image src="/images/carousel1.png" mode=""/>
+      <text>asdf</text>
+    </view>
   </view>
-  <view class="grid-item">
-    <image src="/images/carousel1.png" mode=""/>
-    <text>asdf</text>
   </view>
-  <view class="grid-item">
-    <image src="/images/carousel1.png" mode=""/>
-    <text>asdf</text>
-  </view>
-  <view class="grid-item">
-    <image src="/images/carousel1.png" mode=""/>
-    <text>asdf</text>
-  </view>
-  <view class="grid-item">
-    <image src="/images/carousel1.png" mode=""/>
-    <text>asdf</text>
-  </view>
-  <view class="grid-item">
-    <image src="/images/carousel1.png" mode=""/>
-    <text>asdf</text>
-  </view>
-  <view class="grid-item">
-    <image src="/images/carousel1.png" mode=""/>
-    <text>asdf</text>
-  </view>
-  <view class="grid-item">
-    <image src="/images/carousel1.png" mode=""/>
-    <text>asdf</text>
-  </view>
-  <view class="grid-item">
-    <image src="/images/carousel1.png" mode=""/>
-    <text>asdf</text>
-  </view>
-</view>

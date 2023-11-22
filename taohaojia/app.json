@@ -2,12 +2,14 @@
   "pages": [
     "pages/index/index",
     "pages/cart/cart",
-    "pages/user/user"
+    "pages/user/user",
+    "pages/list1/list1"
   ],
+
   "window": {
     "navigationBarTextStyle": "white",
-    "navigationStyle":"custom",
-    "navigationBarTitleText": "7230263661"
+    "navigationBarTitleText": "7230263661",
+    "navigationBarBackgroundColor": "#000000"
   },
   "tabBar": {
     "selectedColor": "#000",

@@ -1,0 +1,3 @@
+<!--pages/list1/list1.wxml-->
+<input placeholder="asdf" value="{{searchValue}}"/>
+<product-item wx:for="{{ trades }}" trade_name="{{item.name}}" trade_price="{{item.price}}"></product-item>
